@@ -1,0 +1,74 @@
+ Global Retail SQL Analytics
+
+  Project Overview
+
+This project analyzes a global retail business using SQL. The analysis focuses on sales performance, gross margin, promotional performance, operating costs, and category profitability.
+
+  Objectives
+
+The project was designed to answer business questions such as:
+
+* How does gross margin vary by category, store, and fiscal year?
+* What is the sales lift associated with promotions?
+* What is the rolling three-month operating cost by store?
+* Which categories generate high revenue but have relatively low gross margins?
+
+  Database Structure
+
+The database contains several related tables:
+
+* `dim_date` — Date and fiscal-period information
+* `dim_product` — Product, category, and unit-cost information
+* `dim_store` — Store and geographic information
+* `promotions` — Promotion and discount information
+* `store_expenses` — Store operating expenses
+* `sales_transactions` — Sales transaction data
+
+  SQL Skills Demonstrated
+
+* SELECT statements
+* JOINs
+* GROUP BY
+* Aggregate functions
+* Common Table Expressions (CTEs)
+* CASE/conditional analysis
+* Window functions
+* LAG()
+* AVG() OVER()
+* NTILE()
+* Rolling averages
+* Gross-margin calculations
+* Business performance analysis
+
+   Key Analysis
+
+   Gross Margin Analysis
+
+Calculated gross margin percentage by fiscal year, product category, and store.
+
+  Promotion Analysis
+
+Calculated total discount value and compared promotional sales using a sales-lift analysis.
+
+  Operating Cost Analysis
+
+Calculated rolling three-month operating costs for individual stores.
+
+  Category Profitability
+
+Identified categories with above-average revenue but lower gross-margin performance.
+
+  Tools
+
+* MySQL
+* SQL
+* GitHub
+
+  Project Files
+
+* `01_database_setup.sql` — Creates the retail analytics database and tables.
+* `02_analytics_queries.sql` — Contains the SQL analysis queries.
+
+ Author
+
+Ini-Abasi Aniefiok Okon
